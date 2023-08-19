@@ -1,0 +1,93 @@
+body{
+    background: #ccc;
+  
+}
+
+.juego{
+    display:flex;
+    width:80%;
+    padding:2rem;
+    margin:1rem auto 1rem auto;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: #7a7979;
+    border-radius: 1rem;
+}
+
+.titulo{
+    font-family: monospace;
+    font-size: 3rem;
+    color:crimson;
+    text-shadow: .2rem .2rem .2rem #000;
+}
+
+.texto{
+    font-family: monospace;
+    color:palevioletred;
+    font-size:1.5rem;
+    text-shadow: .2rem .2rem .2rem #000;
+}
+
+.input{
+    font-size: 1.5rem;
+    padding:.3rem;
+    border-radius: .2rem;
+    border:none;
+    text-align: right;
+}
+
+.button{
+    font-size: 1.5rem;
+    padding:.3rem;
+    border-radius: .2rem;
+    border:none;
+    background: palegreen;
+    margin-left: .3rem;
+    box-shadow: .2rem .2rem .2rem #000;
+    cursor:pointer;
+}
+
+.button:hover{
+    box-shadow: .1rem .1rem .1rem #000;
+}
+
+.button:active{
+    box-shadow:0rem 0rem 0rem #000 ;
+    background: rgb(87, 243, 87);
+}
+
+
+
+.resultado{
+    
+    width:80%;
+    height: 2rem;
+    padding:2rem;
+    margin:1rem auto 1rem auto;    
+    justify-content:center;
+    align-items:center;
+    background: #7a7979;
+    border-radius: 1rem;
+}
+
+.pista{
+    font-family: monospace;
+    color:rgb(255, 149, 184);
+    font-size:1rem;
+    text-shadow: .2rem .2rem .2rem #000;
+    text-align: center;
+}
+
+.footer{
+    
+    background: #7a7979;
+    text-align: center;
+    width:80%;
+    color:#fff;
+    padding:1.3rem;
+    margin:auto;
+    border-radius: 1rem;
+    
+}
+
